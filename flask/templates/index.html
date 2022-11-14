@@ -1,0 +1,102 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov 10 20:08:16 2022
+
+@author: DIVYA
+"""
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body
+        {
+        background-image: url("https://thumbs.dreamstime.com/b/loan-approval-businessman-financial-standing-application-form-lender-borrower-help-investment-bank-estate-concept-157237960.jpg");
+       
+        background-size: 1300px 900px;
+        }
+        h3.big
+        {
+        line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+<font color="#1C67FF"><h1><strong>Enter the details for Loan Approval</strong></h1><br></font>
+<div class="container">
+
+        <form action="submit", method="post">
+        
+        
+             <div>
+             <label for="Gender" style="font-size: 20px">Gender</label><br>
+              
+             <select name="Gender" id="Gender">
+                 <option value="0">Male</option>
+                 <option value="1">Female</option>
+               </select></div></br>
+             
+           <div>
+           <label  for="Married" style="font-size: 20px">Married</label><br>
+             <select  name="Married" id="Married">
+                 <option value="0">No</option>
+                 <option value="1">Yes</option>
+               </select></div></br>
+               
+               <div><label  for="Dependents" style="font-size: 20px">Dependents</label><br>
+               <input type="number" id="Dependents" min=0 max=10 name="Dependents" placeholder="No of Dependents on you......"></div></br>
+               
+              
+              <div>
+              <label  for="Education" style="font-size: 20px">Education</label><br>
+              <select  name="Education" id="Education">
+                  <option value="0">Not Graduate</option>
+                  <option value="1">Graduate</option>
+                </select></div></br>
+                
+            <div>
+            <label  for="Self_Employed" style="font-size: 20px">Self_Employed</label><br>
+            <select  name="Self_Employed" id="Self_Employed">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+              </select></div></br>
+              
+               <div><label  for="ApplicantIncome" style="font-size: 20px">ApplicantIncome</label><br>
+               <input type="number" id="ApplicantIncome" min=1000  name="ApplicantIncome" placeholder="Your Income......"></div></br>
+               
+               <div><label  for="CoapplicantIncome" style="font-size: 20px">CoapplicantIncome</label><br>
+               <input type="number" id="CoapplicantIncome" min=100  name="CoapplicantIncome" placeholder="Your Income......"></div></br>
+               
+               <div><label  for="LoanAmount" style="font-size: 20px">LoanAmount</label><br>
+               <input type="number" id="LoanAmount" min=0  name="LoanAmount" placeholder="Enter the Loan Amount......"></div></br>
+               
+               <div><label  for="Loan_Amount_Term" style="font-size: 20px">Loan_Amount_Term</label><br>
+               <input type="number" id="Loan_Amount_Term" min=30 max=1500  name="Loan_Amount_Term" placeholder="Enter the Loan Amount Term in Days......"></div></br>
+               
+               <div><label  for="Credit_History" style="font-size: 20px">Credit_History</label><br>
+               <input type="number" id="Credit_History" min=0 max=5  name="Credit_History" placeholder="Enter your previous Credit History......"></div></br>
+             
+             <div><label  for="Property_Area" style="font-size: 20px">Property_Area</label><br>
+             <select  name="Property_Area" id="Property_Area">
+                 <option value="0">Rural</option>
+                 <option value="1">Semiurban</option>
+                 <option value="2">Urban</option>
+               </select></div></br>
+             
+             
+            
+             
+            <button type="submit" style="font-size: 15px">Submit</button>
+
+
+        </form>
+       
+</div>
+
+
+    
+</body>
+</html>
+
